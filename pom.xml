@@ -49,7 +49,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.example</groupId>
-			<artifactId>m1</artifactId>
+			<artifactId>m4</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
