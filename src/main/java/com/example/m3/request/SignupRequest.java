@@ -20,7 +20,8 @@ public class SignupRequest {
     @Email
     private String email;
     
-//    private Set<String> role;
+    @NotEmpty
+    private Set<Integer> role;
     
     @NotBlank
     @Size(min = 6, max = 40)

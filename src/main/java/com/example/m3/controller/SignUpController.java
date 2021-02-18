@@ -23,11 +23,7 @@ public class SignUpController {
 	
 	@PostMapping("/signup")
 	public ResponseEntity<MessageResponse> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
-		
 		return service.processSignUp(signUpRequest);
-
-
-
 	}
 
 }
